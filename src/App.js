@@ -3,7 +3,8 @@ import './App.css';
 import Header from "./components/Header"
 import Contant from "./components/Contant";
 import Product from "./components/Product"
-import sawir from "./img/sawir2.jpg";
+import Footer from "./components/Footer"
+import bigImage from "./img/bigImage.jpg";
 
 
 import img1 from "./img/img1.jpg";
@@ -30,8 +31,9 @@ function App() {
   return (
     <div className="App">
      <Header />
-     <Contant sawir={sawir} />
+     <Contant sawir={bigImage} />
      <Product product={product}/>
+    <Footer />
     </div>
   );
 }

@@ -11,7 +11,7 @@ function Contant(props) {
             wax yabaha <span className="haylat">Dumarka  </span></p>
             </div>
             
-                <img src={props.sawir} alt="sawir" />
+                {/* <img src={props.sawir} alt="sawir" /> */}
         </div>
     )
 }
